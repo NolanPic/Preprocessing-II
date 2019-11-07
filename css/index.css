@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   .container {
     width: 90%;
@@ -187,6 +192,12 @@ nav .links {
   justify-content: space-around;
   align-items: stretch;
 }
+@media (max-width: 800px) {
+  nav .links {
+    margin-top: 20px;
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   nav .links {
     margin-top: 20px;
@@ -197,6 +208,11 @@ nav .links a {
   color: #212529;
   text-decoration: none;
   font-size: 2rem;
+}
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
 }
 @media (max-width: 500px) {
   nav {
@@ -299,6 +315,12 @@ nav .links a {
   justify-content: space-between;
   align-items: stretch;
 }
+@media (max-width: 800px) {
+  .home .content-pick {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 @media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
@@ -310,6 +332,13 @@ nav .links a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .home .content-pick .destination {
+    width: 45%;
+    margin: 0 3% 30px 0;
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {

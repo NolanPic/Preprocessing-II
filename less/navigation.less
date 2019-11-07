@@ -9,6 +9,11 @@ nav {
         width: 50%;
         .flex(space-around);
 
+        @media @tablet {
+            margin-top: 20px;
+            width: 80%;
+        }
+
         @media @phone {
             margin-top: 20px;
             width: 100%;
@@ -21,6 +26,9 @@ nav {
         }
     }
 
+    @media @tablet {
+        flex-direction: column;
+    }
     @media @phone {
         flex-direction: column;
     }
