@@ -11,3 +11,18 @@
     padding-bottom: @padding-bottom;
     border-bottom: 2px dashed @navigation-border;
 }
+
+// buttons
+.btn(@bg-color: #11807f, @font-color: #fff) {
+    background-color: @bg-color;
+    color: @font-color;
+    padding: 1rem 4.5rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bg-color;
+    }
+}

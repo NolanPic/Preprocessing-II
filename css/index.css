@@ -251,3 +251,39 @@ nav .links a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home button.option1 {
+  background-color: #11807f;
+  color: #fff;
+  padding: 1rem 4.5rem;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.home button.option1:hover {
+  background-color: #fff;
+  color: #11807f;
+}
+.home button.option2 {
+  background-color: #11807f;
+  color: #fff;
+  padding: 1rem 4.5rem;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.home button.option2:hover {
+  background-color: #fff;
+  color: #11807f;
+}
+.home button.option3 {
+  background-color: #11807f;
+  color: #fff;
+  padding: 1rem 4.5rem;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.home button.option3:hover {
+  background-color: #fff;
+  color: #11807f;
+}
