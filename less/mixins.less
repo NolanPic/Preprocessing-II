@@ -1,1 +1,13 @@
-// Mixins in here
+
+// flexbox
+.flex(@justify: flex-start, @align: stretch) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+// bottom border seperator
+.seperator(@padding-bottom: 0) {
+    padding-bottom: @padding-bottom;
+    border-bottom: 2px dashed @navigation-border;
+}
