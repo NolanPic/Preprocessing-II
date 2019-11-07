@@ -182,10 +182,21 @@ nav .links {
   justify-content: space-around;
   align-items: stretch;
 }
+@media (max-width: 500px) {
+  nav .links {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
 nav .links a {
   color: #212529;
   text-decoration: none;
   font-size: 2rem;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
 }
 .footer {
   width: 100%;
